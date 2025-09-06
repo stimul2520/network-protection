@@ -160,6 +160,14 @@ enabled = true
 
 ![16](img/16.png)
 
+```python
+sudo fail2ban-client status # смотрим список контейнеров (jails)
+sudo fail2ban-client status sshd # смотрим список заблокированных IP адресов по ssh
+sudo fail2ban-client set sshd unbanip 192.168.0.10 # исключаем заблокированный IP
+```
+
+![17](img/17.png)
+
 ---
 
 
